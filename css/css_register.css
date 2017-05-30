@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:normal  Segoeui, Arial, Verdana, serif;
+}
+#register{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#login{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.form{
+    width: 480px ;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 200px;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    color: #444;
+    font-size: 13px;
+}
+.form >div{
+    margin: 15px;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+}
+.title_register{
+    font-size: 27px;
+    color: #444;
+}
+.field_register{
+    margin-top: 25px;
+}
+.field_register >div{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.title_input{
+    color: #707070;
+    font-weight: bold;
+    font-size: 13px;
+}
+.title_input >span{
+    color: #c3293a;
+}
+.register_input{
+    width: 255px;
+    border: 1px solid #ccc;
+    color: #777;
+    border-radius: 2px;
+    height: 33px;
+    padding-left: 5px;
+}
+#bt_choose_ava{
+    margin-left: 15px;
+}
+.field_register i{
+    color: #2eabd9 !important;
+}
+.register_validate{
+    color: #2eabd9 !important;
+    display: none !important;
+}
+.register_error_field{
+    color: #c3293a !important;
+    margin-top: 5px;
+}
+#login_error{
+     margin-top: 10px;
+ }
+#input_note{
+    width: calc(100% - 30px);
+    height: 50px;
+    padding: 5px;
+}
+#input_avatar{
+    /*background-color: #919595;*/
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 0px;
+    display: none;
+}
+#img_avatar {
+    /*margin: 10px;*/
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#submit_register{
+    width: 200px;
+    height: 35px;
+    background-color: #59b7c2;
+    border: 0px;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 35px;
+}
+#submit_register:hover{
+    cursor: pointer;
+    background-color: #2ab4c4;
+}
+#submit_login{
+    width: 200px;
+    height: 35px;
+    background-color: #59b7c2;
+    border: 0px;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 35px;
+}
+#submit_login:hover{
+    cursor: pointer;
+    background-color: #2ab4c4;
+}
+#field_birthday{
+
+}
+#field_birthday>div{
+    display: inline-block;
+}
+#field_birthday>div>p{
+    display: inline-block;
+    width: 30%;
+    margin-left: 20px;
+}
+#register_birthday_error{
+    width: 100%;
+    color: #c3293a;
+}
+
+#login_suggest{
+    margin-top: 10px;
+    font-size: 13px;
+}
+#field_password >div>u{
+    display: inline-block;
+    width: 30%;
+    margin-left: 20px;
+    /*text-decoration: blink;*/
+}
+#field_password >div>u:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+#remember_pass{
+    margin-top: 5px;
+    display: inline-block;
+    width: 100%;
+    height: 17px;
+    /*line-height: 17px;*/
+    position: relative;
+}
+#remember_password{
+    width: 17px;
+    height: 17px;
+
+}
+#remember_pass >p{
+    position: absolute;
+    top: 2px;
+    display: inline-block;
+    width: 30%;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
+.lable_ava {
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    width: 100px;
+    color: #333333;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+}
